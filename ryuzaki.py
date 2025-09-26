@@ -389,7 +389,7 @@ with col_ficha:
         a2.write(f"**Int**: {Int} ({mod(Int):+d})")
         a2.write(f"**Sab**: {Sab} ({mod(Sab):+d})")
         a2.write(f"**Car**: {Car} ({mod(Car):+d})")
-        st.markdown("### 🧾 Histórico")
+    st.markdown("### 🧾 Histórico")
     
     if "history" in st.session_state and st.session_state.history:
         for item in st.session_state.history[:10]:
