@@ -425,7 +425,6 @@ with col_habs:
     if clicked:
         st.session_state["last_output"] = clicked
 
-    st.markdown("---")
 
     # --- render fixo do output (sempre abaixo do '---')
     if "last_output" in st.session_state:
